@@ -1,7 +1,7 @@
 import { CheckIn, Prisma } from "@prisma/client";
 import { CheckInsRepository } from "../check-ins-repository";
 import { randomUUID } from "node:crypto";
-import { endOfDay, format, startOfDay, isAfter, isBefore, isEqual, isSameDay } from "date-fns";
+import { isSameDay } from "date-fns";
 
 export class InMemoryCheckInsRepository implements CheckInsRepository {
 public items: CheckIn[] = []
