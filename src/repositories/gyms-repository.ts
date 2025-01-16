@@ -11,3 +11,4 @@ export interface GymsRepository {
   findManyNearby(params: FindManyNearbyParams): Promise<Gym[]>
   create(data: Prisma.GymCreateInput): Promise<Gym>
 }
+

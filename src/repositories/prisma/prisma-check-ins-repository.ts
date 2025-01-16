@@ -1,7 +1,7 @@
 import { Prisma, CheckIn } from "@prisma/client";
 import { CheckInsRepository } from "../check-ins-repository";
 import { prisma } from "src/lib/prisma";
-import { endOfDay, isSameDay, startOfDay } from "date-fns";
+import { endOfDay, startOfDay } from "date-fns";
 
 export class PrismaCheckInsrepository implements CheckInsRepository{
   async create(data: Prisma.CheckInUncheckedCreateInput){
