@@ -1,6 +1,6 @@
-# App
+<h1 align= center> GymPass style app.</h1>
 
-GymPass style app.
+<br>
 
 # RFs (Requisitos Funcionais)
 
@@ -30,3 +30,23 @@ GymPass style app.
 - [x] -> Os dados da aplicaçao precisam estar persistidos em um banco PostgreSQL;
 - [x] -> Todas as listas de dados precisam estar paginadas com 20 itens por página;
 - [x] -> O usuário deve ser identificado por JWT (JSON Web Token);
+
+<h3>Tecnologias Utilizadas</h3>
+
+<ul>
+  <li>Node.js (v14+)</li>
+  <li>Typescript</li>
+  <li>Fastify </li>
+  <li>Vitest - Testes</li>
+  <li>Prisma - ORM para PostgreSQL</li>
+  <li>PostgreSQL - Banco de dados relacional</li>
+  <li>dotenv - Gerenciamento de variáveis de ambiente</li>
+  <li>jsonwebtoken (JWT) - Autenticação e autorização</li>
+  <li>bcrypt - Hashing seguro de senhas</li>
+</ul>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nodejs,ts,prisma,vitest,docker" />
+  </a>
+</p>
