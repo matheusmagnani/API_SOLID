@@ -50,3 +50,6 @@
     <img src="https://skillicons.dev/icons?i=nodejs,ts,prisma,vitest,docker" />
   </a>
 </p>
+
+<img src="http://img.shields.io/static/v1?label=STATUS&message=PRONTO&color=GREEN&style=for-the-badge"/>
+</p>
