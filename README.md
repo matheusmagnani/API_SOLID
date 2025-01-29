@@ -1,4 +1,4 @@
-<h1 align= center> GymPass style app.</h1>
+<h1 align= center> GymPass style app Backend.</h1>
 
 <br>
 
@@ -30,6 +30,35 @@
 - [x] -> Os dados da aplicaçao precisam estar persistidos em um banco PostgreSQL;
 - [x] -> Todas as listas de dados precisam estar paginadas com 20 itens por página;
 - [x] -> O usuário deve ser identificado por JWT (JSON Web Token);
+
+## :books: Requisitos
+
+
+- [**Node.js**](https://nodejs.org/en/)
+- [**Npm**](https://www.npmjs.com)
+
+## Iniciando o projeto
+
+```bash
+
+  # Clonar o projeto:
+
+  $ git clone https://github.com/matheusmagnani/gympass-style-app
+
+  # Entrar no diretório web
+
+  $ cd gympass-style-app
+  
+   # Instalando as dependências
+   
+  $ npm install
+
+  # Iniciar web
+
+  $ npm run forrest
+  
+  
+```
 
 <h3>Tecnologias Utilizadas</h3>
 
