@@ -80,5 +80,6 @@
   </a>
 </p>
 
-<img align="center" src="http://img.shields.io/static/v1?label=STATUS&message=PRONTO&color=GREEN&style=for-the-badge"/>
+<p align="center">
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=PRONTO&color=GREEN&style=for-the-badge"/>
 </p>
